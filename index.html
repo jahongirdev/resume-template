@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John+</title>
+
+  <!-- SEO Meta tags -->
+  <meta name="description" content="John+ - Basic, Simple website template!">
+  <meta name=”robots” content="index, follow">
+  <meta name="keywords" content="John+, Simple, Basic">
+  <meta name="author" content="Jahongir Murodboev">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SRGEDWL3FF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SRGEDWL3FF');
+  </script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <!-- PARENT MAIN -->
+  <div class="main-container">
+    <!-- HEADER -->
+    <header class="header">
+      <ul class="menu">
+        <li class="menu-li"><a href="work.html" class="menu-link">Works</a></li>
+        <li class="menu-li"><a href="blog.html" class="menu-link">Blog</a></li>
+        <li class="menu-li"><a href="contact.html" class="menu-link">Contact</a></li>
+      </ul>
+      <!-- RESPONSIVE-MENU -->
+      <div class="menu-mobile">
+        <ul class="mobile-menu" id="mobile-menu">
+          <li class="menu-li"><a href="work.html" class="menu-link">Works</a></li>
+          <li class="menu-li"><a href="blog.html" class="menu-link">Blog</a></li>
+          <li class="menu-li"><a href="#" class="menu-link">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="onClick()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    
+    <main>
+      <!-- MAIN-CONTENT -->
+      <section class="main-content">
+        <div class="main-content-img-rs">
+          <img src="img/person-img.png" alt="Person Image" width="243" height="243">
+        </div>
+        <div class="main-content-hero">
+          <h1 class="main-content-hero-h1">Hi, I am John,<br>Creative Technologist</h1>
+          <p class="main-content-hero-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.</p>
+          <div class="main-content-hero-btn">
+            <a class="btn" href="#">Download Resume</a>
+          </div>
+        </div>
+        <div class="main-content-img">
+          <img src="img/person-img.png" alt="Person Image" width="243" height="243">
+        </div>
+      </section>
+      <!-- END MAIN-CONTENT -->
+      <!-- RECENT-POSTS -->
+      <section class="recent-posts">
+        <div class="container">
+          <div class="recent-posts-top">
+            <h2 class="recent-posts-top-h2">Recent posts</h2>
+            <a href="#" class="recent-posts-top-link">View all</a>
+          </div>
+          <div class="recent-posts-post">
+            <div class="post-box">
+              <h2 class="post-box-title">Making a design system from scratch</h2>
+              <p class="post-box-date">12 Feb 2020  |  Design, Pattern</p>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            <div class="post-box">
+              <h2 class="post-box-title">Creating pixel perfect icons in Figma</h2>
+              <p class="post-box-date">12 Feb 2020  |  Figma, Icon Design</p>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END RECENT-POSTS -->
+      <!-- FEATURED WORKS -->
+      <section class="featured-works">
+        <h2>Featured works</h2>
+        <div class="works-box">
+          <div class="work-box">
+            <img src="img/works-img-1.png" alt="Work Box Image" class="work-box-img" width="246" height="180">
+            <div class="box-texts">
+              <h2>Designing Dashboards</h2>
+              <div class="box-alt">
+                <span class="box-year">2020</span>
+                <span class="box-word">Dashboard</span>
+              </div>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </div>
+        </div>
+        <hr color="#E0E0E0">
+        <div class="works-box">
+          <div class="work-box">
+            <img src="img/works-img-2.png" alt="Work Box Image" class="work-box-img" width="246" height="180">
+            <div class="box-texts">
+              <h2>Vibrant Portraits of 2020</h2>
+              <div class="box-alt">
+                <span class="box-year">2018</span>
+                <span class="box-word">Illustration</span>
+              </div>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </div>
+        </div>
+        <hr color="#E0E0E0">
+        <div class="works-box">
+          <div class="work-box">
+            <img src="img/works-img-3.png" alt="Work Box Image" class="work-box-img" width="246" height="180">
+            <div class="box-texts">
+              <h2>36 Days of Malayalam type</h2>
+              <div class="box-alt">
+                <span class="box-year">2018</span>
+                <span class="box-word">Typography</span>
+              </div>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END FEATURED WORKS -->
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+      <ul class="socials">
+        <a href="#" class="socials-link"><li><img src="img/fb.svg" alt="Facebook Icon"></li></a>
+        <a href="#" class="socials-link"><li><img src="img/insta.svg" alt="Instagram Icon"></li></a>
+        <a href="#" class="socials-link"><li><img src="img/twitter.svg" alt="Twitter Icon"></li></a>
+        <a href="#" class="socials-link"><li><img src="img/Linkedin.svg" alt="Linkedin Icon"></li></a>
+      </ul>
+      <center>
+        <span class="footer-text">Copyright ©2020 All rights reserved </span>
+      </center>
+    </footer>
+    <!-- END FOOTER -->
+    
+  </div>
+  <!-- END PARENT MAIN -->
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/0c7b19484e.js" crossorigin="anonymous"></script>
+</body>
+</html>
